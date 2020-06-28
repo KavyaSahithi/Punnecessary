@@ -39,7 +39,6 @@
 
 <style lang="scss" scoped>
 @import 'assets/scss/main.scss';
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
 .field {
   font-family: 'Gochi Hand', cursive;

@@ -15,7 +15,6 @@
 
 <style lang="scss">
 @import 'assets/scss/main.scss';
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
 .navbar {
   font-family: 'Gochi Hand', cursive;
