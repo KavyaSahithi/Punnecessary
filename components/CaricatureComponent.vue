@@ -1,33 +1,176 @@
 <template>
-  <div class="tile is-ancestor">
-    <div class="tile is-4 is-vertical is-parent">
-      <div class="tile is-child box">
-        <p class="title">One</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+  <div>
+    <div class="tile is-ancestor">
+      <div class="tile is-6 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('ragini')"></cloudinary-component>
+        </div>
       </div>
-      <div class="tile is-child box">
-        <p class="title">Two</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+      <div class="tile is-6 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('payal')"></cloudinary-component>
+        </div>
       </div>
     </div>
-    <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p class="title">Three</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-        <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
-        <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-4 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('dharma')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-4 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('varsha')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-4 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('jayant')"></cloudinary-component>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-6 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('sunil')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-6 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('swathiakka')"></cloudinary-component>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-6 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('kavya')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-6 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('paddu')"></cloudinary-component>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-4 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('ajitesh')"></cloudinary-component>
+        </div>
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('sachin')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-vertical is-4 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('bernie')"></cloudinary-component>
+        </div>
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('payaltrek')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-vertical is-4 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('aayush')"></cloudinary-component>
+        </div>
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('indrajit')"></cloudinary-component>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-8 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('mohit')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-vertical is-4 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('kaumudi')"></cloudinary-component>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-4 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('zishan')"></cloudinary-component>
+        </div>
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('jinal')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-4 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('cat')"></cloudinary-component>
+        </div>
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('uncle')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-4 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('kiran')"></cloudinary-component>
+        </div>
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('deep')"></cloudinary-component>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
+<style lang="scss">
+.tile .is-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+</style>
 
 <script lang="ts">
 import Vue from 'vue'
 import CloudinaryComponent from '@/components/CloudinaryComponent.vue'
 
 export default Vue.extend({
-    components: {
-        CloudinaryComponent
+  components: {
+    CloudinaryComponent,
+  },
+  data() {
+    return {
+      images: new Map([
+        ['ragini', '1_edupch'],
+        ['payal', '2_xbjhdq'],
+        ['swathiakka', '3_sgkjti'],
+        ['dharma', '5_aevkmq'],
+        ['jayant', '6_ljcvtv'],
+        ['sunil', '7_r7kbji'],
+        ['varsha', '8_dk9snl'],
+        ['bernie', '9_bbxn2y'],
+        ['kaumudi', '10_hn8bly'],
+        ['payaltrek', '11_fmdbja'],
+        ['aayush', '12_jqbrqn'],
+        ['sachin', '13_my6ar2'],
+        ['kavya', '14_voi0wx'],
+        ['indrajit', '15_nlcbgc'],
+        ['mohit', '17_lsqhou'],
+        ['uncle', '18_ouheew'],
+        ['paddu', 'IMG_0886_eart5a'],
+
+        ['cat', '16_o4nvyy'],
+        ['zishan', 'IMG_1632_gvh87l'],
+        ['kiran', 'IMG_1636_cgdddn'],
+        ['ajitesh', 'IMG_1638_xlufrj'],
+        ['jinal', 'IMG_1639_vaows0'],
+        ['deep', 'IMG_1643_ld9lxf'],
+      ]),
     }
+  },
 })
 </script>
