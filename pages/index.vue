@@ -10,12 +10,12 @@
 @import 'assets/scss/main.scss';
 
 .image {
-  padding-top: calc(15vh);
-  width: calc(350px + 8vw);
+  padding-top: calc(5vh);
+  width: calc(250px + 20vw);
 }
 
 section {
-  min-height: 100vh;
+  min-height: 95vh;
   background-color: $primary;
 }
 </style>
