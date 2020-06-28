@@ -2,17 +2,11 @@
   <div>
     <b-navbar fixed-top type="is-primary">
       <template slot="brand">
-        <b-navbar-item>
-          <nuxt-link class="has-text-white" to="/portfolio">Punnecessary</nuxt-link>
-        </b-navbar-item>
+        <b-navbar-item class="has-text-white" href="/">Punnecessary</b-navbar-item>
       </template>
       <template slot="end">
-        <b-navbar-item>
-          <nuxt-link class="has-text-white" to="/portfolio">Portfolio</nuxt-link>
-        </b-navbar-item>
-        <b-navbar-item>
-          <nuxt-link class="has-text-white" to="/contact">Contact</nuxt-link>
-        </b-navbar-item>
+        <b-navbar-item class="has-text-white" href="/art">Art</b-navbar-item>
+        <b-navbar-item class="has-text-white" href="/contact">Contact</b-navbar-item>
       </template>
     </b-navbar>
     <nuxt />
@@ -21,23 +15,38 @@
 
 <style lang="scss">
 @import 'assets/scss/main.scss';
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
-.navbar-brand .has-text-white {
-  font-weight: bold;
-  padding-left: 4vw;
+.navbar {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 30px;
+}
+
+.navbar-brand {
+  margin-left: 4vw;
 }
 
 .navbar-end {
-  padding-right: 4vw;
+  margin-right: 4vw;
 }
 
 .navbar-burger span {
-  background-color: $white;
+  background-color: $white !important;
 }
 
 .navbar-menu {
-  background-color: $primary;
+  background-color: $primary !important;
 }
+
+a.navbar-item:hover {
+  background-color: darken($color: $primary, $amount: 5%) !important;
+}
+
+a.navbar-item:focus-within {
+  background-color: $primary !important;
+  color: $white !important;
+}
+
 </style>
 
 <script lang="ts">
