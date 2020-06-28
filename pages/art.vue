@@ -30,7 +30,7 @@
 }
 
 .tabs {
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 .tabs li.is-active a {
@@ -54,7 +54,7 @@ export default Vue.extend({
   data() {
     return {
       activeTab: 0,
-      categories: ['Caricatures', 'Portraits', 'Comics', 'Cards'],
+      categories: ['Caricatures', 'Portraits', 'Comics', 'Cards', 'Puns'],
     }
   },
 })

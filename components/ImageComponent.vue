@@ -8,6 +8,9 @@
     <section v-else-if="category == 'Comics'">
         <comics-component></comics-component>
     </section>
+    <section v-else-if="category == 'Puns'">
+        <puns-component></puns-component>
+    </section>
     <section v-else>
         <cards-component></cards-component>
     </section>
@@ -19,13 +22,15 @@ import CaricatureComponent from '@/components/CaricatureComponent.vue'
 import CardsComponent from '@/components/CardsComponent.vue'
 import PortraitComponent from '@/components/PortraitsComponent.vue'
 import ComicsComponent from '@/components/ComicsComponent.vue'
+import PunsComponent from '@/components/PunsComponent.vue'
 
 export default Vue.extend({
     components: {
         CaricatureComponent,
         CardsComponent,
         PortraitComponent,
-        ComicsComponent 
+        ComicsComponent,
+        PunsComponent
     },
     props: {
         category: {

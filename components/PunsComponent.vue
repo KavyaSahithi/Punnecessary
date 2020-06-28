@@ -2,8 +2,7 @@
   <div>
     <div class="tile is-ancestor">
       <div class="tile is-12 is-parent">
-        <cloudinary-component category="Cards" :id="images.get('puns1')"></cloudinary-component>
-        <cloudinary-component category="Cards" :id="images.get('puns2')"></cloudinary-component>
+        <cloudinary-component category="Puns" :id="images.get('punscards')"></cloudinary-component>
       </div>
     </div>
   </div>
@@ -20,8 +19,7 @@ export default Vue.extend({
       data() {
     return {
       images: new Map([
-        ['puns1', 'IMG_0216_t3liv4'],
-        ['puns2', 'IMG_0217_jvod3m']
+        ['punscards', 'final2_vl076r'],
       ]),
     }
   },
