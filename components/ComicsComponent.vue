@@ -1,23 +1,13 @@
 <template>
   <div>
     <div class="tile is-ancestor">
-      <div class="tile is-3 is-vertical is-parent">
-        <div class="tile is-child">
-          <cloudinary-component category="Comics" :id="images.get('sleep')"></cloudinary-component>
-        </div>
-        <div class="tile is-child">
-          <cloudinary-component category="Comics" :id="images.get('pizza')"></cloudinary-component>
-        </div>
-      </div>
-      <div class="tile is-3 is-vertical is-parent">
+      <div class="tile is-6 is-vertical is-parent">
         <div class="tile is-child">
           <cloudinary-component category="Comics" :id="images.get('marriage')"></cloudinary-component>
         </div>
         <div class="tile is-child">
           <cloudinary-component category="Comics" :id="images.get('towel')"></cloudinary-component>
         </div>
-      </div>
-      <div class="tile is-3 is-vertical is-parent">
         <div class="tile is-child">
           <cloudinary-component category="Comics" :id="images.get('angry')"></cloudinary-component>
         </div>
@@ -25,7 +15,13 @@
           <cloudinary-component category="Comics" :id="images.get('ac')"></cloudinary-component>
         </div>
       </div>
-      <div class="tile is-3 is-vertical is-parent">
+      <div class="tile is-6 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Comics" :id="images.get('sleep')"></cloudinary-component>
+        </div>
+        <div class="tile is-child">
+          <cloudinary-component category="Comics" :id="images.get('pizza')"></cloudinary-component>
+        </div>
         <div class="tile is-child">
           <cloudinary-component category="Comics" :id="images.get('magic')"></cloudinary-component>
         </div>
