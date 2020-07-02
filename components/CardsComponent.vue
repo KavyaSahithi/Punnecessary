@@ -3,7 +3,7 @@
     <div class="tile is-ancestor">
       <div class="tile is-4 is-vertical is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Cards" :id="images.get('eid')"></cloudinary-component>
+          <cloudinary-component category="Cards" :id="images.get('mom')"></cloudinary-component>
         </div>
         <div class="tile is-child">
           <cloudinary-component category="Cards" :id="images.get('birthdaygif')"></cloudinary-component>
@@ -25,7 +25,7 @@
       </div>
       <div class="tile is-4 is-vertical is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Cards" :id="images.get('mom')"></cloudinary-component>
+          <cloudinary-component category="Cards" :id="images.get('eid')"></cloudinary-component>
         </div>
         <div class="tile is-child">
           <cloudinary-component category="Cards" :id="images.get('ram')"></cloudinary-component>
