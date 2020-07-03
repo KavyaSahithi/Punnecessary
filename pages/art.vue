@@ -39,7 +39,7 @@
 }
 
 .art {
-  padding-top: 10vh;
+  padding-top: 8vh;
 }
 </style>
 
