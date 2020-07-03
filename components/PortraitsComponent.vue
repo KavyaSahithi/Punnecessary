@@ -9,6 +9,19 @@
     <div class="tile is-ancestor">
       <div class="tile is-6 is-vertical is-parent">
         <div class="tile is-child">
+          <cloudinary-component category="Portraits" :id="images.get('raginisis')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-6 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Portraits" :id="images.get('ragini')"></cloudinary-component>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-6 is-vertical is-parent">
+        <div class="tile is-child">
           <cloudinary-component category="Portraits" :id="images.get('neelima')"></cloudinary-component>
         </div>
         <div class="tile is-child">
@@ -49,12 +62,12 @@
       </div>
       <div class="tile is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Portraits" :id="images.get('ragini')"></cloudinary-component>
+          <cloudinary-component category="Portraits" :id="images.get('varsha')"></cloudinary-component>
         </div>
       </div>
       <div class="tile is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Portraits" :id="images.get('amazinggirl')"></cloudinary-component>
+          <cloudinary-component category="Portraits" :id="images.get('kids')"></cloudinary-component>
         </div>
       </div>
     </div>
@@ -66,7 +79,7 @@
       </div>
       <div class="tile is-4 is-vertical is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Portraits" :id="images.get('kids')"></cloudinary-component>
+          <cloudinary-component category="Portraits" :id="images.get('amazinggirl')"></cloudinary-component>
         </div>
         <div class="tile is-child">
           <cloudinary-component category="Portraits" :id="images.get('syed')"></cloudinary-component>
@@ -104,13 +117,15 @@ export default Vue.extend({
         ['sarojaaunty', 'IMG_1470_g2ejdl'],
         ['kirikparty', 'IMG_1118_djabd7'],
         ['yellowbaby', '4_daaud4'],
-        ['ragini', '13_qrucdt'],
+        ['ragini', 'IMG_1950_x1tyke'],
+        ['raginisis', 'IMG_1954-min_tczeey'],
         ['pooja', 'IMG_0889_zfd7xl'],
         ['sans', 'IMG_1354_qrqbhb'],
         ['amazinggirl', '5695EF4D-33AD-4A1F-B52B-0EB45CCD608B_ox3vxu'],
         ['kids', 'IMG_1074_hayc1g'],
         ['kavya', 'IMG_1784_lwev3j'],
-        ['syed', 'IMG_0790_ntxlfn']
+        ['syed', 'IMG_0790_ntxlfn'],
+        ['varsha', '19_mhvepd']
       ]),
     }
   },
