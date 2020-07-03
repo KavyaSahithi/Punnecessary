@@ -6,7 +6,7 @@
       </template>
       <template slot="end">
         <b-navbar-item class="has-text-white" href="/art">Art</b-navbar-item>
-        <b-navbar-item class="has-text-white" href="/contact">Contact</b-navbar-item>
+        <b-navbar-item class="has-text-white" href="/contact">Contact Me</b-navbar-item>
       </template>
     </b-navbar>
     <nuxt />
