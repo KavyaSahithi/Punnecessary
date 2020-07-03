@@ -37,27 +37,54 @@
   </section>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import 'assets/scss/main.scss';
+
+body {
+  background-color: $primary;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#__nuxt {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#__layout {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.top-level {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .field {
   font-family: 'Gochi Hand', cursive;
   font-size: 3vw;
 }
 
-.container {
-  padding-top: calc(15vh);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .top-level-fields {
   flex-direction: columns;
-}
-
-section {
-  min-height: 100vh;
-  background-color: $primary;
 }
 </style>

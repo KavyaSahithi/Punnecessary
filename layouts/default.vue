@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="top-level">
     <b-navbar fixed-top type="is-primary">
       <template slot="brand">
         <b-navbar-item class="has-text-white" href="/">Punnecessary</b-navbar-item>

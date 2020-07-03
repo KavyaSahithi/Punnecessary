@@ -6,16 +6,47 @@
   </section>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import 'assets/scss/main.scss';
 
-.image {
-  padding-top: calc(5vh);
-  width: calc(250px + 20vw);
+body {
+  background-color: $primary;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#__nuxt {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#__layout {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.top-level {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 section {
-  min-height: 95vh;
-  background-color: $primary;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
 }
+
+.image {
+  width: calc(250px + 30vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 </style>
