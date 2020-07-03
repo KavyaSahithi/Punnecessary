@@ -3,12 +3,12 @@
     <div class="tile is-ancestor">
       <div class="tile is-6 is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Caricatures" :id="images.get('ragini')"></cloudinary-component>
+          <cloudinary-component category="Caricatures" :id="images.get('payal')"></cloudinary-component>
         </div>
       </div>
       <div class="tile is-6 is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Caricatures" :id="images.get('payal')"></cloudinary-component>
+          <cloudinary-component category="Caricatures" :id="images.get('world')"></cloudinary-component>
         </div>
       </div>
     </div>
@@ -47,10 +47,16 @@
     <div class="tile is-ancestor">
       <div class="tile is-6 is-parent">
         <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('ragini')"></cloudinary-component>
+        </div>
+        <div class="tile is-child">
           <cloudinary-component category="Caricatures" :id="images.get('kavya')"></cloudinary-component>
         </div>
       </div>
       <div class="tile is-6 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('payaltrek')"></cloudinary-component>
+        </div>
         <div class="tile is-child">
           <cloudinary-component category="Caricatures" :id="images.get('paddu')"></cloudinary-component>
         </div>
@@ -71,7 +77,7 @@
           <cloudinary-component category="Caricatures" :id="images.get('bernie')"></cloudinary-component>
         </div>
         <div class="tile is-child">
-          <cloudinary-component category="Caricatures" :id="images.get('payaltrek')"></cloudinary-component>
+          <cloudinary-component category="Caricatures" :id="images.get('jinal')"></cloudinary-component>
         </div>
       </div>
       <div class="tile is-vertical is-4 is-parent">
@@ -98,18 +104,25 @@
     </div>
 
     <div class="tile is-ancestor">
-      <div class="tile is-4 is-vertical is-parent">
+      <div class="tile is-6 is-vertical is-parent">
         <div class="tile is-child">
           <cloudinary-component category="Caricatures" :id="images.get('zishan')"></cloudinary-component>
         </div>
-        <div class="tile is-child">
-          <cloudinary-component category="Caricatures" :id="images.get('jinal')"></cloudinary-component>
-        </div>
       </div>
-      <div class="tile is-4 is-vertical is-parent">
+      <div class="tile is-6 is-vertical is-parent">
         <div class="tile is-child">
           <cloudinary-component category="Caricatures" :id="images.get('cat')"></cloudinary-component>
         </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-4 is-vertical is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('deep')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-4 is-vertical is-parent">
         <div class="tile is-child">
           <cloudinary-component category="Caricatures" :id="images.get('uncle')"></cloudinary-component>
         </div>
@@ -117,9 +130,6 @@
       <div class="tile is-4 is-vertical is-parent">
         <div class="tile is-child">
           <cloudinary-component category="Caricatures" :id="images.get('kiran')"></cloudinary-component>
-        </div>
-        <div class="tile is-child">
-          <cloudinary-component category="Caricatures" :id="images.get('deep')"></cloudinary-component>
         </div>
       </div>
     </div>
@@ -162,13 +172,13 @@ export default Vue.extend({
         ['mohit', '17_lsqhou'],
         ['uncle', '18_ouheew'],
         ['paddu', 'IMG_0886_eart5a'],
-
         ['cat', '16_o4nvyy'],
         ['zishan', 'IMG_1632_gvh87l'],
         ['kiran', 'IMG_1636_cgdddn'],
         ['ajitesh', 'IMG_1638_xlufrj'],
         ['jinal', 'IMG_1639_vaows0'],
         ['deep', 'IMG_1643_ld9lxf'],
+        ['world', 'IMG_1963_quznep'],
       ]),
     }
   },
