@@ -2,35 +2,45 @@
   <section>
     <figure class="container">
       <div class="top-level-fields">
-        <div class="field has-text-white">
+        <div class="field">
+          <a href="https://www.instagram.com/_punnecessary/" target="_blank">
           <span>
             <b-icon icon="instagram" size="is-large" type="is-white"></b-icon>
           </span>
-          <span>@_punnecessary</span>
+          <span class="has-text-white">@_punnecessary</span>
+          </a>
         </div>
-        <div class="field has-text-white">
+        <div class="field">
+          <a href="https://www.facebook.com/punnecessary" target="_blank">
           <span>
             <b-icon icon="facebook" size="is-large" type="is-white"></b-icon>
           </span>
-          <span>fb.com/punnecessary</span>
+          <span class="has-text-white">fb.com/punnecessary</span>
+          </a>
         </div>
-        <div class="field has-text-white">
+        <div class="field">
+          <a href="/">
           <span>
             <b-icon icon="google-chrome" size="is-large" type="is-white"></b-icon>
           </span>
-          <span>www.kavyasahithi.com</span>
+          <span class="has-text-white">www.kavyasahithi.com</span>
+          </a>
         </div>
-        <div class="field has-text-white">
+        <div class="field">
+          <a href="https://wa.me/919620388230" target="_blank">
           <span>
             <b-icon icon="whatsapp" size="is-large" type="is-white"></b-icon>
           </span>
-          <span>9620388230 / 9741104864</span>
+          <span class="has-text-white">9620388230 / 9741104864</span>
+          </a>
         </div>
-        <div class="field has-text-white">
+        <div class="field">
+          <a href="mailto:kavya.lily@gmail.com" target="_blank">
           <span>
             <b-icon icon="email" size="is-large" type="is-white"></b-icon>
           </span>
-          <span>kavya.lily@gmail.com</span>
+          <span class="has-text-white">kavya.lily@gmail.com</span>
+          </a>
         </div>
       </div>
     </figure>
@@ -81,7 +91,7 @@ section {
 
 .field {
   font-family: 'Gochi Hand', cursive;
-  font-size: 3vw;
+  font-size: calc(3.5vh + 1vw);
 }
 
 .top-level-fields {
