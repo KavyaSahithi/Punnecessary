@@ -1,7 +1,6 @@
 <template>
   <section class="container pricing">
     <b-tabs
-      v-model="activeTab"
       position="is-centered"
       class="block"
       type="is-info"
