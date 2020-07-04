@@ -3,7 +3,7 @@
     <div class="top">
       <div class="image">
         <img
-          src="https://res.cloudinary.com/punnecessary/image/upload/q_auto,f_auto/kavya_tlv1la.png"
+          src="https://res.cloudinary.com/punnecessary/image/upload/q_auto,f_auto/kavya_cirle_sxhwpo.png"
         />
       </div>
       <div class="text has-text-white">
