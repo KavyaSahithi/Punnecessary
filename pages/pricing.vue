@@ -59,7 +59,7 @@
         </div>
         <br />
 
-        <div class="has-text-weight-semibold is-size-1">Greeting cards</div>
+        <div class="has-text-weight-semibold is-size-1 is-size-3-mobile">Greeting cards</div>
         <div class="subtext">
           <ul class="is-size-4 is-size-6-mobile">
             <li>350 ₹ onwards</li>
