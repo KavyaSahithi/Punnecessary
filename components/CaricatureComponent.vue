@@ -34,12 +34,12 @@
     <div class="tile is-ancestor">
       <div class="tile is-6 is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Caricatures" :id="images.get('amsterdam')"></cloudinary-component>
+          <cloudinary-component category="Caricatures" :id="images.get('zaefin')"></cloudinary-component>
         </div>
       </div>
       <div class="tile is-6 is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Caricatures" :id="images.get('zaefin')"></cloudinary-component>
+          <cloudinary-component category="Caricatures" :id="images.get('amsterdam')"></cloudinary-component>
         </div>
       </div>
     </div>
