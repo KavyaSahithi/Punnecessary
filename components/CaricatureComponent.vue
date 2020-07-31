@@ -32,6 +32,19 @@
     </div>
 
     <div class="tile is-ancestor">
+      <div class="tile is-6 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('amsterdam')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-6 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('zaefin')"></cloudinary-component>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
       <div class="tile is-6 is-vertical is-parent">
         <div class="tile is-child">
           <cloudinary-component category="Caricatures" :id="images.get('sunil')"></cloudinary-component>
@@ -104,6 +117,19 @@
     </div>
 
     <div class="tile is-ancestor">
+      <div class="tile is-6 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('poki')"></cloudinary-component>
+        </div>
+      </div>
+      <div class="tile is-6 is-parent">
+        <div class="tile is-child">
+          <cloudinary-component category="Caricatures" :id="images.get('amsHug')"></cloudinary-component>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
       <div class="tile is-6 is-vertical is-parent">
         <div class="tile is-child">
           <cloudinary-component category="Caricatures" :id="images.get('zishan')"></cloudinary-component>
@@ -137,50 +163,54 @@
 </template>
 
 <style lang="scss">
-.tile .is-child {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  .tile .is-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 </style>
 
 <script lang="ts">
-import Vue from 'vue'
-import CloudinaryComponent from '@/components/CloudinaryComponent.vue'
+  import Vue from 'vue'
+  import CloudinaryComponent from '@/components/CloudinaryComponent.vue'
 
-export default Vue.extend({
-  components: {
-    CloudinaryComponent,
-  },
-  data() {
-    return {
-      images: new Map([
-        ['ragini', '1_edupch'],
-        ['payal', '2_xbjhdq'],
-        ['swathiakka', '3_sgkjti'],
-        ['dharma', '5_aevkmq'],
-        ['jayant', '6_ljcvtv'],
-        ['sunil', '7_r7kbji'],
-        ['varsha', '8_dk9snl'],
-        ['bernie', '9_bbxn2y'],
-        ['kaumudi', '10_hn8bly'],
-        ['payaltrek', '11_fmdbja'],
-        ['aayush', '12_jqbrqn'],
-        ['sachin', '13_my6ar2'],
-        ['kavya', '14_voi0wx'],
-        ['indrajit', '15_nlcbgc'],
-        ['mohit', '17_lsqhou'],
-        ['uncle', '18_ouheew'],
-        ['paddu', 'IMG_0886_eart5a'],
-        ['cat', '16_o4nvyy'],
-        ['zishan', 'IMG_1632_gvh87l'],
-        ['kiran', 'IMG_1636_cgdddn'],
-        ['ajitesh', 'IMG_1638_xlufrj'],
-        ['jinal', 'IMG_1639_vaows0'],
-        ['deep', 'IMG_1643_ld9lxf'],
-        ['world', 'IMG_1963_quznep'],
-      ]),
-    }
-  },
-})
+  export default Vue.extend({
+    components: {
+      CloudinaryComponent,
+    },
+    data() {
+      return {
+        images: new Map([
+          ['ragini', '1_edupch'],
+          ['payal', '2_xbjhdq'],
+          ['swathiakka', '3_sgkjti'],
+          ['dharma', '5_aevkmq'],
+          ['jayant', '6_ljcvtv'],
+          ['sunil', '7_r7kbji'],
+          ['varsha', '8_dk9snl'],
+          ['bernie', '9_bbxn2y'],
+          ['kaumudi', '10_hn8bly'],
+          ['payaltrek', '11_fmdbja'],
+          ['aayush', '12_jqbrqn'],
+          ['sachin', '13_my6ar2'],
+          ['kavya', '14_voi0wx'],
+          ['indrajit', '15_nlcbgc'],
+          ['mohit', '17_lsqhou'],
+          ['uncle', '18_ouheew'],
+          ['paddu', 'IMG_0886_eart5a'],
+          ['cat', '16_o4nvyy'],
+          ['zishan', 'IMG_1632_gvh87l'],
+          ['kiran', 'IMG_1636_cgdddn'],
+          ['ajitesh', 'IMG_1638_xlufrj'],
+          ['jinal', 'IMG_1639_vaows0'],
+          ['deep', 'IMG_1643_ld9lxf'],
+          ['world', 'IMG_1963_quznep'],
+          ['poki', 'IMG_2231_wf6icm'],
+          ['zaefin', 'IMG_2129-min_mmijsn'],
+          ['amsterdam', 'IMG_2235_i78n5l'],
+          ['amsHug', 'IMG_2216_mhqqqi'],
+        ]),
+      }
+    },
+  })
 </script>

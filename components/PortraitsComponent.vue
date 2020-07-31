@@ -31,7 +31,7 @@
           <cloudinary-component category="Portraits" :id="images.get('pooja')"></cloudinary-component>
         </div>
         <div class="tile is-child">
-          <cloudinary-component category="Portraits" :id="images.get('mona')"></cloudinary-component>
+          <cloudinary-component category="Portraits" :id="images.get('ariana')"></cloudinary-component>
         </div>
       </div>
       <div class="tile is-6 is-vertical is-parent">
@@ -45,7 +45,7 @@
           <cloudinary-component category="Portraits" :id="images.get('anne')"></cloudinary-component>
         </div>
         <div class="tile is-child">
-          <cloudinary-component category="Portraits" :id="images.get('ariana')"></cloudinary-component>
+          <cloudinary-component category="Portraits" :id="images.get('uncleFriend')"></cloudinary-component>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
       </div>
       <div class="tile is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Portraits" :id="images.get('varsha')"></cloudinary-component>
+          <cloudinary-component category="Portraits" :id="images.get('mona')"></cloudinary-component>
         </div>
       </div>
       <div class="tile is-parent">
@@ -79,7 +79,7 @@
       </div>
       <div class="tile is-4 is-vertical is-parent">
         <div class="tile is-child">
-          <cloudinary-component category="Portraits" :id="images.get('amazinggirl')"></cloudinary-component>
+          <cloudinary-component category="Portraits" :id="images.get('varsha')"></cloudinary-component>
         </div>
         <div class="tile is-child">
           <cloudinary-component category="Portraits" :id="images.get('syed')"></cloudinary-component>
@@ -98,36 +98,36 @@
 </style>
 
 <script lang="ts">
-import Vue from 'vue'
-import CloudinaryComponent from '@/components/CloudinaryComponent.vue'
+  import Vue from 'vue'
+  import CloudinaryComponent from '@/components/CloudinaryComponent.vue'
 
-export default Vue.extend({
-  components: {
-    CloudinaryComponent,
-  },
-  data() {
-    return {
-      images: new Map([
-        ['kaumudi', 'IMG_1359_uhfhxi'],
-        ['neelima', 'IMG_0938_mxpczy'],
-        ['varshafriends', 'IMG_1526_s5rjmp'],
-        ['ariana', 'IMG_1028_ydlfzp'],
-        ['anne', 'IMG_0594_gexi3n'],
-        ['mona', 'IMG_1262_fwdfdb'],
-        ['sarojaaunty', 'IMG_1470_g2ejdl'],
-        ['kirikparty', 'IMG_1118_djabd7'],
-        ['yellowbaby', '4_daaud4'],
-        ['ragini', 'IMG_1950_x1tyke'],
-        ['raginisis', 'IMG_1954-min_tczeey'],
-        ['pooja', 'IMG_0889_zfd7xl'],
-        ['sans', 'IMG_1354_qrqbhb'],
-        ['amazinggirl', '5695EF4D-33AD-4A1F-B52B-0EB45CCD608B_ox3vxu'],
-        ['kids', 'IMG_1074_hayc1g'],
-        ['kavya', 'IMG_1784_lwev3j'],
-        ['syed', 'IMG_0790_ntxlfn'],
-        ['varsha', '19_mhvepd']
-      ]),
-    }
-  },
-})
+  export default Vue.extend({
+    components: {
+      CloudinaryComponent,
+    },
+    data() {
+      return {
+        images: new Map([
+          ['kaumudi', 'IMG_1359_uhfhxi'],
+          ['neelima', 'IMG_0938_mxpczy'],
+          ['varshafriends', 'IMG_1526_s5rjmp'],
+          ['ariana', 'IMG_1028_ydlfzp'],
+          ['anne', 'IMG_0594_gexi3n'],
+          ['mona', 'IMG_1262_fwdfdb'],
+          ['sarojaaunty', 'IMG_1470_g2ejdl'],
+          ['kirikparty', 'IMG_1118_djabd7'],
+          ['yellowbaby', '4_daaud4'],
+          ['ragini', 'IMG_1950_x1tyke'],
+          ['raginisis', 'IMG_1954-min_tczeey'],
+          ['pooja', 'IMG_0889_zfd7xl'],
+          ['sans', 'IMG_1354_qrqbhb'],
+          ['kids', 'IMG_1074_hayc1g'],
+          ['kavya', 'IMG_1784_lwev3j'],
+          ['syed', 'IMG_0790_ntxlfn'],
+          ['varsha', '19_mhvepd'],
+          ['uncleFriend', 'IMG_2310-min_hrkvze'],
+        ]),
+      }
+    },
+  })
 </script>
