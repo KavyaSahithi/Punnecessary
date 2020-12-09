@@ -27,14 +27,6 @@
           </a>
         </div>
         <div class="field">
-          <a href="https://wa.me/919620388230" target="_blank">
-          <span>
-            <b-icon icon="whatsapp" size="is-large" type="is-white"></b-icon>
-          </span>
-          <span class="has-text-white">9620388230 / 9741104864</span>
-          </a>
-        </div>
-        <div class="field">
           <a href="mailto:kavya.lily@gmail.com" target="_blank">
           <span>
             <b-icon icon="email" size="is-large" type="is-white"></b-icon>
@@ -90,7 +82,7 @@ section {
 }
 
 .field {
-  font-family: 'Gochi Hand', cursive;
+ 
   font-size: calc(3.5vh + 1vw);
 }
 

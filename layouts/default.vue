@@ -6,8 +6,6 @@
       </template>
       <template slot="end">
         <b-navbar-item class="has-text-white" href="/art">Art</b-navbar-item>
-        <b-navbar-item class="has-text-white" href="/about">About Me</b-navbar-item>
-        <b-navbar-item class="has-text-white" href="/pricing">Pricing</b-navbar-item>
         <b-navbar-item class="has-text-white" href="/contact">Contact Us</b-navbar-item>
       </template>
     </b-navbar>
@@ -19,7 +17,6 @@
 @import 'assets/scss/main.scss';
 
 .navbar {
-  font-family: 'Gochi Hand', cursive;
   font-size: 30px;
 }
 
@@ -31,12 +28,16 @@
   margin-right: 4vw;
 }
 
+.navbar-item {
+  margin-left: 2vw;
+}
+
 .navbar-burger span {
   background-color: $white !important;
 }
 
-.navbar-menu {
-  background-color: $primary !important;
+.navbar {
+  background-color: rgb(100, 202, 189) !important;
 }
 
 a.navbar-item:hover {

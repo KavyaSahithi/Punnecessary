@@ -30,6 +30,7 @@ body {
 }
 
 .top-level {
+  
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -43,11 +44,11 @@ section {
 }
 
 .image {
-  width: calc(250px + 30vw);
+  width: calc(200px + 30vw);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 14vh;
+  
 }
 
 </style>
