@@ -40,6 +40,10 @@
   background-color: rgb(100, 202, 189) !important;
 }
 
+.navbar-menu {
+  background-color: rgb(100, 202, 189) !important;
+}
+
 a.navbar-item:hover {
   background-color: darken($color: $primary, $amount: 5%) !important;
 }
